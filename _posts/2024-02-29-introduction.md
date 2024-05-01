@@ -2,7 +2,7 @@
 layout: post
 title:  "About me"
 date:   2024-02-29
-categories: aboutme
+categories: gd-blog
 ---
 #aboutme
 # About me
