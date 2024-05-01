@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll-theme-slate', '~> 0.2.0'
+gem 'jekyll-theme-midnight', '~> 0.2.0'
 gem "github-pages", "~> 231", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
