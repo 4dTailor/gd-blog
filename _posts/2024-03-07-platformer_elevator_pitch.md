@@ -17,4 +17,4 @@ determine the reason behind your powers.
 
 **Points**
 - Manipulate the world you're in to get to the world you're in.
-- 
+![alt text](/gd-blog/img/DpEwoMvFe2.gif)

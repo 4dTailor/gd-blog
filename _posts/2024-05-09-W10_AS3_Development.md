@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "Week 10 - AS3 Dev Post #1"
+tags: 
+- racer
+- post-mortem
+- playtest
+---
+And so, Week 10 begins Assignment 3, a group assignment where we have three
+weeks to develop and playtest a "prototype". Due to my programming background,
+I was assigned the "Programmer" title, and had the unenviable task of programming
+the game. 
+
+I started by looking through the prototype plans.
+
+**Prototype plans**
+```
+4 Scenes:
+    - Tutorial scene + Lobby
+    - Hotel room 1 – interact with the first NPC suspect.
+    - Hotel room 2 – interact with the second NPC suspect.
+    - Hotel room 3 – interact with the final NPC suspect and solve the mystery.
+A UI that will allow players to see how spooked they are.
+    - The bar will remain static while not in contact with ghosts.
+    - When the player encounters ghosts then the spook meter will go up in
+different intervals [expanded in enemy types]
+    - If the player’s spook bar fills to the top, then the game will be forced into the
+game over scene.
+The player can move and interact with certain platforms and objects to find hidden
+clues to the puzzle or item to equip to help fight the ghosts away.
+Enemies and enemy types.
+    - Angry Ghost
+        - This ghost will pace the platforms waiting to scare the player. They will
+increase the spook meter by a larger fraction and require more
+persistence to scare away.
+    - Scared Ghosts
+        - These ghosts are sporadic and can travel between platforms.The Curious Case of Hotel Hollow – Minimal Viable Product Report
+They do not have a set path and can be scared away with a large
+amount of light.
+        - When in contact with the player, they will increase the spook meter by
+only a small percentage compared to the Angry ghost.
+    - Sad Ghosts
+        - These ghosts have the same pathing and removal conditions as the
+scared ghosts.
+        - When in contact with the player will not make a significant increase in
+the spook meter.
+➢ Ghosts can drop certain clues or equip-able items to help the player progress
+through the game.
+            - NPCs and Interactable Items:
+    - The game will have a minimum of 5 Clues.
+        - Murder weapon.
+        - NPC specific clues
+        - notes
+        - Dialogue queues from the victim’s ghost and the suspects in each
+level.
+    - The NPCs will be the same each run through but will have different themes to
+expand the level design and puzzles.
+        - The dialogue will be very basic.
+    - The tutorial level will include a passive Ghost NPC that is identified as the
+murder victim.
+        - This ghost will take you through the tutorial level by teaching you the
+controls to the game and give you hints on how to solve the different
+types of puzzles.
+            - In future updates, the ghost will be able to give you additional
+clues when you enter each of the NPC’s levels.
+    - A save game function where each level will take you through one night.
+        - When the clues have been found in each level than the player can
+return to the lobby (tutorial scene) to save the game and unlock the
+next level.
+        - When the player completes the level, the path to the lobby (tutorial
+scene) will be illuminated and the player will no longer have to
+encounter ghosts.
+```
+
+Despite the ~slightly~ ambitious plans, I was hopeful that we could get done a
+nice looking prototype.
+
+From the 6th to now, I threw together a barebones project while I waited for the
+assets to be drawn together by the team.
+
+I first started on getting the doors and clue collection working, and after a
+struggle, I got this working.
+![1st iteration](/gd-blog/img/1.gif)
+> Clue collection, and door animation
+
+I
