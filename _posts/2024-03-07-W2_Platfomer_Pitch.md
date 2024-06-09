@@ -12,13 +12,16 @@ the game genre: `Platformer`. As part of this task, we have to develop an
 elevator pitch for our game.
 
 # Mousehand
-Mousehand is a platformer game where you use the 
-mouse to move around the world
+Mousehand is a platformer game where the player uses
+their mouse to move around the world. Change the world
+space to solve puzzles, and discover the reason 
+behind the power of the Cursor. 
 
 ## Controls
 - Use the mouse to move items around
 - Use WASD to move the alien character, and SPACE to jump
 
 ## Selling Points
-- Manipulate the world you're in to get to the world you're in.
-- 
+- Manipulate the world the player's in to get around.
+- Multiple different types of objects to interact with
+- Interesting story to drive the player forward
